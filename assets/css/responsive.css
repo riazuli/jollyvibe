@@ -1,0 +1,83 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .header ul {
+        padding-top: 10px;
+    }
+    h2.long-line:after,
+    h2.long-line:before {
+        width: 80px;
+    }
+
+    .boxed-promo h2 {
+        margin-top: 60%;
+    }
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .header .logo {
+        padding: 18px 0px 0px;
+    }
+    .header {
+        height: 85px;
+    }
+    .main-menu {
+        display: none;
+        z-index: -99;
+    }
+    .menu {
+        display: block;
+        z-index: 99;
+    }
+    .hero-area,
+    .single-slide {
+        height: 450px;
+    }
+
+    .hero-below-area h1 {
+        font-size: 45px;
+    }
+    h2.long-line:after,
+    h2.long-line:before {
+        width: 120px;
+        bottom: -15px;
+        top: auto;
+    }
+    .about-area h2 {
+        font-size: 20px;
+    }
+    .about-area h1 {
+        font-size: 25px;
+    }
+    .boxed-promo h2 {
+        margin-top: 50%;
+    }
+    .footer p {
+        text-align: center;
+    }
+    .social-link {
+        text-align: center;
+    }
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .header .logo {
+        padding: 5px;
+    }
+    h2.long-line:after,
+    h2.long-line:before {
+        width: 400px;
+    }
+}
